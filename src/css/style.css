@@ -181,6 +181,32 @@ body {
   margin-right: 16px;
 }
 
+.btn-apoiador{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:14px 24px;
+    border-radius:999px;
+    text-decoration:none;
+    border:1px solid rgba(39,214,111,.25);
+    background:rgba(255,255,255,.03);
+    color:#d8ffe7;
+    font-family:'Inter',sans-serif;
+    font-size:.95rem;
+    font-weight:600;
+    transition:.3s ease;
+    backdrop-filter:blur(12px);
+    gap:8px;
+}
+
+.btn-apoiador:hover{
+    background:rgba(39,214,111,.10);
+    border-color:#27d66f;
+    color:white;
+    transform:translateY(-2px);
+    box-shadow:0 10px 25px rgba(39,214,111,.15);
+}
+
 .menu-toggle {
   display: none;
   background: none;
