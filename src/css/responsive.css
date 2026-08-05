@@ -155,6 +155,10 @@
     justify-content: center;
     font-size: 1rem;
   }
+  
+  .btn-apoiador i{
+    font-size:1.1rem;
+  }
 
 /* Segunda Section mobile*/
     .event-gallery {
